@@ -1,0 +1,172 @@
+.sea1{
+     display: flex; 
+    justify-content: space-between;
+}
+.sea11{
+    color: #224093;
+    font-weight: bold;
+}
+.but1{
+    color: #224093;
+    background-color:#fdb915;
+    border: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.but1:hover{
+    color: white;
+}
+
+#hero{
+    display: grid;
+    grid-template-columns: 42% 8% 42%;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 0;
+}
+#hero>div:nth-child(2){
+    text-align: center;
+    border: 1px solid #00a877;
+    border-radius: 50%;
+    padding: 20px;
+}
+#hero>div:nth-child(1){
+
+    display: grid;
+    grid-template-columns: 40%  60%;
+    align-items: center;
+}
+#hero>div:nth-child(1)>span:nth-child(1){
+    text-align: end;
+}
+#hero>div:nth-child(3)>span:nth-child(2),
+#hero>div:nth-child(1)>span:nth-child(1)
+{
+    color: #224093;
+    font-size: 1.5rem;
+}
+#hero>div:nth-child(3){
+    display: grid;
+    grid-template-columns: 60%  40%;
+    align-items: center;
+}
+#venueAndDate{
+    background: #5a77c5;
+    background-image: linear-gradient(to left,((#5576CF 70%),(rgb(85 118 207 / 0) 30%)));
+    color: #fff;
+    text-align: center;
+    font-family: 'poppin',sans-serif;
+    padding: 30px 0px;
+    margin: 20px ;
+    border-radius: 10px;
+}
+.sea2{
+    display: flex;
+    gap: 40px;
+}
+.but2{
+    width: 550px;
+    height: 50px;
+    background-color: #fdb915;
+    color: #224093;
+    border: none;
+    font-weight: bold;
+}
+.but3{
+    width: 550px;
+    height: 50px;
+    background-color: white;
+    color: #224093;
+    border:1px solid #224093;
+    font-weight: bold; 
+}
+.sea3{
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    font-size: 25px;
+    
+}
+.star{
+    border: 1px solid #00a877;
+    border-radius: 100%;
+    padding: 5px;
+}
+.sea4{
+    margin: none;
+    justify-content:center;
+    padding: none;
+}
+.view{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: underline;
+}
+.mark{
+    background-color: white;
+    color: black;
+    border:none;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+.mark:hover{
+    background-color: green;
+    color: white;
+    animation-delay: 5s;
+}
+.ton1{
+   background-color: #fdb915;
+   color: black;
+   border-radius: 4px;
+   width: 80px;
+   height:40px;
+   border: none;
+}
+.ton1:hover{
+    color: white;
+}
+.elon{
+    background-color: #fdb915;
+    color:#224093;
+    border:none;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+.ton2{
+    background-color:#224093;
+    color:white ;
+    border-radius: 4px;
+    width: 80px;
+    height:40px;
+    border: none;
+}
+.jeff{
+    background-color: white;
+    color: black;
+    border:none;
+    border-radius: 10px;
+    padding-bottom: 15px;  
+}
+.jeff:hover{
+    background-color: #224093;
+    color: white;
+}
+.ton3{
+    background-color: #fdb915;
+    color: black;
+    border-radius: 4px;
+    width: 80px;
+    height:40px;
+    border: none;
+}
+.allmark>div{
+    width: 27%;
+    padding: 20px;
+}
+.allmark{
+    display: flex;
+    background-color: #f5f5f5;
+    justify-content: space-around;
+}
